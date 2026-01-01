@@ -23,9 +23,6 @@
 ;   Ctrl+Enter : click (no overlay)
 ;   F6         : show client size
 ;   F7         : toggle slot list (top-left of client)
-;   F8         : reload slots from file
-;   F9         : toggle overlay on/off (affects nudges only)
-;   Esc        : hide overlay (nudge overlay only)
 ;   Ctrl+Esc   : exit
 ;
 ; ============================================================
@@ -120,22 +117,6 @@ OnExit (*) => SaveSlotsToFile()
 
 F6:: ShowClientSize()
 F7:: ToggleSlotList()
-
-F8:: {
-    LoadSlotsFromFile()
-    ShowTip("Reloaded slots")
-    HideOverlay()
-}
-
-F9:: {
-    global overlayOn
-    overlayOn := !overlayOn
-    if !overlayOn
-        HideOverlay()
-    ShowTip("Overlay " (overlayOn ? "ON" : "OFF"))
-}
-
-Esc:: HideOverlay()
 
 #HotIf WinActive(btd6WinTitle)
 ^b::NextSlot()
