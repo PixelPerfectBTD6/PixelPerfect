@@ -18,16 +18,16 @@ Ctrl+M  : move mouse to current slot\
 Ctrl+S  : save current mouse position to current slot as SUPER (Included in temple range calcs)\
 Ctrl+A  : save current mouse position to current slot as NORMAL (Not included in temple range calcs)\
 Ctrl+W  : toggle current slot type (s <-> a)\
-Ctrl+E  : delete current slot\
+Ctrl+E  : delete current slot
 
 ### Pixel nudges (overlay shows ONLY on these):
 Ctrl+I/J/K/L : move 1 pixel\
-Ctrl+Enter : click\
+Ctrl+Enter : click
 
 ## Other:
 F6 : show client size\
 F7 : toggle slot list (top-left of client)\
-Ctrl+Esc : exit\
+Ctrl+Esc : exit
 
 ## IMPORTANT Info:
 1.	If Slot 1 is saved as SUPER it will act as your VTSG location (accounts for increased range when upgrading from sun temple to VTSG)
