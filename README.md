@@ -5,8 +5,8 @@
 2. It tells you when a super monkey tower is just out of range of another super monkey for pixel perfect temple placement.
 
 ## How to Use:
-1. Download the AHK script for your resolution and save to a folder of your choosing
-	a. 1920 x 1080 and 2560 x 1440 currently supported
+1. Download the AHK script for your resolution and save to a folder of your choosing\
+	a. 1920 x 1080 and 2560 x 1440 currently supported\
 2. Make sure your client is in windowed mode
 3. Run script
 4. Go ham
